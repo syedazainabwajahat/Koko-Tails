@@ -1,0 +1,1207 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <title>Hello, world!</title>
+
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <style>
+    .fa-facebook-f:hover {
+      color: blue;
+    }
+
+    .fa-twitter:hover {
+      color: powderblue;
+    }
+
+    .fa-youtube:hover {
+      color: red;
+    }
+
+    .fa-instagram:hover {
+      color: purple;
+    }
+
+    .fa-pinterest-p:hover {
+      color: red;
+    }
+
+    .fa-linkedin-in:hover {
+      color: cadetblue;
+    }
+
+    /* ====== FOOTER BASE STYLE ====== */
+    footer {
+
+      flex-wrap: wrap;
+      gap: 30px;
+    }
+
+    footer div {
+      min-width: 200px;
+    }
+
+    footer h2 {
+      font-size: 30px;
+      margin-bottom: 15px;
+    }
+
+    footer p,
+    footer i {
+      font-size: 27px;
+      margin-bottom: 8px;
+    }
+
+
+    /* ====== DESKTOP (Large screens) ====== */
+    @media (min-width: 992px) {
+      footer {
+        justify-content: space-between;
+        text-align: left;
+
+      }
+    }
+
+    /* ====== TABLET (768px - 991px) ====== */
+    @media (max-width: 991px) and (min-width: 768px) {
+      footer {
+        justify-content: space-between;
+        text-align: left;
+      }
+
+      footer div {
+        width: 45%;
+      }
+    }
+
+    /* ====== MOBILE (Below 768px) ====== */
+    @media (max-width: 767px) {
+      footer {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+      }
+
+      footer div {
+        width: 100%;
+      }
+
+      footer h2 {
+        font-size: 20px;
+      }
+
+      footer p {
+        font-size: 15px;
+      }
+
+      footer i {
+        font-size: 26px;
+        margin: 6px;
+      }
+    }
+  </style>
+
+
+</head>
+
+<body style="background: url(./ASSESTS//IMAGES/body.jpg);">
+  <header class="sticky-top">
+
+    <!-- Navbar -->
+    <strong><strong><strong>
+          <nav class="navbar navbar-dark navbar-expand-lg fst-italic fs-4 sticky-top" style="background-color:purple">
+            <div class="container-fluid">
+              <a class="navbar-brand fst-italic" href="#">
+                <h1><strong><strong>Koko Tails</strong></strong></h1>
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <center>
+
+                <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        Menu
+                      </a>
+                      <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="#snuggles & playtime">🥣 Kitty Cuisine 🥣</a>
+                        </li>
+                        <li>
+                          <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#little toes">🍖 Woof Meals 🍖</a></li>
+                        <li>
+                          <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#kidzy closet">🐟 Ocean Munchies 🐟</a></li>
+
+                      </ul>
+                    <li class="nav-item">
+                      <a class="nav-link" href="aboutUs.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="contactUs.html">Contact Us</a>
+                    </li>
+
+
+                  </ul>
+              </center>
+              <form class="d-flex">
+                <input class="form-control me-2 border-dark fst-italic fs-3" type="search" placeholder="Search"
+                  aria-label="Search">
+                <button class="btn btn-outline-success text-light bg-info fst-italic fs-4 " type="submit">
+                  <strong><strong>Search</strong></strong></button>
+              </form>
+            </div>
+            </div>
+          </nav>
+        </strong></strong></strong>
+
+  </header>
+
+
+
+
+  <main>
+    <div class="alert alert-info alert-dismissible fade show fst-italic fs-4" role="alert">
+      <marquee behavior="" direction=""><strong>Hey Buddy!</strong> You should check our <strong> Exclusive
+          Deals</strong>
+        here
+        <code>Click on this provided Link</code>.
+      </marquee>
+      <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+
+
+    <h3 class="bg-warning text-center text-light fs-1 fst-italic"><strong>Koko Tails
+      </strong> - Happy Pets, Healthy Lives 🐾
+    </h3>
+
+
+    <!-- Carousel -->
+
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+          aria-label="Slide 4"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"
+          aria-label="Slide 5"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5"
+          aria-label="Slide 1"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./ASSESTS/IMAGES/carousala.webp" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="./ASSESTS//IMAGES/carousalb.webp" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="./ASSESTS//IMAGES/carousalc.webp" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="./ASSESTS//IMAGES/carousald.webp" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="./ASSESTS//IMAGES/carousale.webp" class="d-block w-100" alt="...">
+        </div>
+
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+
+    </div>
+
+    <!-- Nav & Tabs -->
+
+    <nav>
+      <div class="nav nav-tabs justify-content-center bg-light" id="nav-tab" role="tablist">
+        <button class="nav-link active fst-italic" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home"
+          type="button" role="tab" aria-controls="nav-home" aria-selected="true">🪀 FURRIE FINDS 🪀</button>
+        <button class="nav-link fst-italic" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile"
+          type="button" role="tab" aria-controls="nav-profile" aria-selected="false">💊 PAW HEAL 💊</button>
+        <button class="nav-link fst-italic" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact"
+          type="button" role="tab" aria-controls="nav-contact" aria-selected="false">🏠 TAIL NEST 🏠</button>
+      </div>
+   
+
+    <div class="tab-content" id="nav-tabContent">
+      <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+
+        <div class="row justify-content-center">
+          <!-- Cards -->
+
+          <h1 class="text-secondary text-center fst-italic"><strong><strong>🪀 FURRIE FINDS 🪀</strong></strong></h1>
+          <div id="" class="row justify-content-center" style="gap: 20px;">
+
+            <div data-aos="zoom-in-right" class="card" style="width: 18rem;">
+              <img src="./ASSESTS//IMAGES/furriefindsa.webp" class="card-img-top h-100" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">High Quality Flower Bed for Cats & Puppies</h5>
+                <p class="card-text">PKR 3,999.00.</p>
+                <button type="button" class="btn btn-primary w-100 " data-bs-toggle="modal"
+                  data-bs-target="#exampleModal10">
+                  More Details
+                </button>
+              </div>
+            </div>
+
+
+
+            <!-- Button trigger modal -->
+
+
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal10" tabindex="-1" aria-labelledby="exampleModalLabel"
+              aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">High Quality Flower Bed for Cats & Puppies</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <img src="./ASSESTS//IMAGES/modalfurriefindsa.webp" alt="" width="100%">
+                    <h1><strong>DESCRIPTION:</strong></h1>
+                    <p>
+                      Give your furry friend the sweetest spot to nap with the Tail Squad Plush Flower Pet Bed. Shaped
+                      like a soft, blooming flower, this bed isn’t just adorable it’s designed for maximum comfort and
+                      coziness.
+                      <br>
+                      <br>
+                      The raised, petal-like edges create a snug and secure nest, making pets feel safe while providing
+                      the perfect headrest for lounging. The plush, velvety fabric is gentle on fur and skin, while the
+                      thick cushioned base ensures all-day comfort, whether it’s for quick cat naps or long puppy
+                      snoozes.
+                      <br>
+                      <br>
+                      Lightweight and portable, you can easily move it from room to room, so your little buddy always
+                      has their favorite resting spot nearby. Its charming design also adds a playful touch to your home
+                      decor making it as stylish as it is practical.
+                    </p>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary w-100" data-bs-dismiss="modal">Add To Cart</button>
+                    <button type="button" class="btn btn-primary w-100">Buy Now</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+            <div data-aos="zoom-in-down" class="card" style="width: 18rem;">
+              <img src="./ASSESTS//IMAGES/furriefindsb.webp" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title"> PetComfort Cat Hoodies Without Ear</h5>
+                <p class="card-text">PKR 1,299.00.</p>
+                <button type="button" class="btn btn-primary w-100" data-bs-toggle="modal"
+                  data-bs-target="#exampleModal11">
+                  More Details
+                </button>
+              </div>
+            </div>
+
+
+            <!-- Button trigger modal -->
+
+
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal11" tabindex="-1" aria-labelledby="exampleModalLabel"
+              aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">PetComfort Cat Hoodies Without Ear</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <img src="./ASSESTS//IMAGES/modalfurriefindsb.webp" alt="" width="100%">
+                    <h1><strong>DESCRIPTION:</strong></h1>
+                    <p>Keep your furry friend warm and comfortable with our Pet Comfort Hoodie (Without Ears), designed
+                      for ultimate coziness without any added ear features. Made with soft, breathable fabric, it
+                      ensures your pet stays snug while enjoying freedom of movement.
+                    </p>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary w-100" data-bs-dismiss="modal">Add To Cart</button>
+                    <button type="button" class="btn btn-primary w-100">Buy Now</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+
+            <div data-aos="zoom-in-left" class="card" style="width: 18rem;">
+              <img src="./ASSESTS//IMAGES/furriefindsc.webp" class="card-img-top h-100" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Sticky Brush for Cats & Dogs Hairs Kit
+                </h5>
+                <p class="card-text">PKR 2,350.00.</p>
+                <button type="button" class="btn btn-primary w-100" data-bs-toggle="modal"
+                  data-bs-target="#exampleModal12">
+                  More Details
+                </button>
+              </div>
+            </div>
+
+
+            <!-- Button trigger modal -->
+
+
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal12" tabindex="-1" aria-labelledby="exampleModalLabel"
+              aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Sticky Brush for Cats & Dogs Hairs Kit</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <img src="./ASSESTS//IMAGES/modalfurriefindsc.webp" alt="" width="100%">
+                    <h1><strong>DESCRIPTION:</strong></h1>
+                    <p>Unlike other combs, our pet comb contains wet paper towels to remove loose hair from your pet's
+                      back while gently cleaning the hair. Save your cleaning time.
+                      <br>
+                      <br>
+                      The comb not only removes loose hair, but also massages your pet at the same time, especially for
+                      long-haired pets. These combs effectively penetrate the hair roots, untie knots and improve mood.
+                    </p>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary w-100" data-bs-dismiss="modal">Add To Cart</button>
+                    <button type="button" class="btn btn-primary w-100">Buy Now</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+          </div>
+
+        </div>
+
+      </div>
+      <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+        <div class="row justify-content-center">
+          <!-- Cards -->
+
+          <h1 class="text-info text-center fst-italic"><strong><strong>💊 PAW HEAL 💊</strong></strong></h1>
+          <div id="" class="row justify-content-center" style="gap: 20px;">
+
+            <div data-aos="zoom-in-right" class="card" style="width: 18rem;">
+              <img src="./ASSESTS//IMAGES/pawheala.webp" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Drontal for Cats (01 Tablet) Deworming Tablet for Cats</h5>
+                <p class="card-text">PKR 475.00.</p>
+                <button type="button" class="btn btn-primary w-100 " data-bs-toggle="modal"
+                  data-bs-target="#exampleModal13">
+                  More Details
+                </button>
+              </div>
+            </div>
+
+
+
+            <!-- Button trigger modal -->
+
+
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal13" tabindex="-1" aria-labelledby="exampleModalLabel"
+              aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Drontal for Cats (01 Tablet) Deworming Tablet for
+                      Cats</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <img src="./ASSESTS//IMAGES/pawheala.webp" alt="" width="100%">
+                    <h1><strong>DESCRIPTION:</strong></h1>
+                    <p>Drontal (praziquantel/pyrantel pamoate) tablets will remove tapeworms (Dipylidium Caninum, Taenia
+                      taeniaeformis), hookworms (Ancylostoma tubaeforme), and large roundworms (Toxocara cati) in cats
+                      and kittens. Drontal (praziquantel/pyrantel pamoate) broad spectrum dewormer tablets for cats and
+                      kittens are scored for easy breakage.</p>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary w-100" data-bs-dismiss="modal">Add To Cart</button>
+                    <button type="button" class="btn btn-primary w-100">Buy Now</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+            <div data-aos="zoom-in-down" class="card" style="width: 18rem;">
+              <img src="./ASSESTS//IMAGES/pawhealb.webp" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Nexgard Chewable Tablets for Dogs 68mg 10-25kg (01 Tablet)</h5>
+                <p class="card-text">PKR 5,950.00.</p>
+                <button type="button" class="btn btn-primary w-100" data-bs-toggle="modal"
+                  data-bs-target="#exampleModal14">
+                  More Details
+                </button>
+              </div>
+            </div>
+
+
+            <!-- Button trigger modal -->
+
+
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal14" tabindex="-1" aria-labelledby="exampleModalLabel"
+              aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Nexgard Chewable Tablets for Dogs 68mg 10-25kg (01
+                      Tablet)</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <img src="./ASSESTS//IMAGES/pawhealb.webp" alt="" width="100%">
+                    <h1><strong>DESCRIPTION:</strong></h1>
+                    <p>With one little NexGard® (afoxolaner) chew comes the confidence that you’re giving your dog the
+                      #1 vet-recommended flea and tick control. Dogs love the beef-flavored NexGard chewables, and
+                      they're easy to give with or without food. Numerous studies have proven that NexGard is safe and
+                      effective, and NexGard is the #1 choice of vets. With an irresistible beef flavor, it’s the #1
+                      choice for dogs, too. And because you should feel just as good about what your dog eats as he does
+                      eating it, the ingredients in each NexGard chew were carefully designed to quickly kill fleas and
+                      ticks for a full month, while being safe and gentle enough to give to puppies as young as 8 weeks
+                      and dogs weighing as little as 4 pounds. NexGard kills fleas fast, before they have a chance to
+                      lay eggs. Plus, NexGard is the only flea and tick control that’s FDA-approved to prevent
+                      infections that cause Lyme disease in dogs. NexGard kills infected black-legged ticks before Lyme
+                      infection can be transmitted. .
+                    </p>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary w-100" data-bs-dismiss="modal">Add To Cart</button>
+                    <button type="button" class="btn btn-primary w-100">Buy Now</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+
+            <div data-aos="zoom-in-left" class="card" style="width: 18rem;">
+              <img src="./ASSESTS//IMAGES/pawhealc.webp" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Caniverm Deworming Tablets for Cats & Dogs (01 Tablet)
+                </h5>
+                <p class="card-text">PKR 475.00.</p>
+                <button type="button" class="btn btn-primary w-100" data-bs-toggle="modal"
+                  data-bs-target="#exampleModal15">
+                  More Details
+                </button>
+              </div>
+            </div>
+
+
+            <!-- Button trigger modal -->
+
+
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal15" tabindex="-1" aria-labelledby="exampleModalLabel"
+              aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Caniverm Deworming Tablets for Cats & Dogs (01
+                      Tablet)</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <img src="./ASSESTS//IMAGES/pawhealc.webp" alt="" width="100%">
+                    <h1><strong>DESCRIPTION:</strong></h1>
+                    <p>Tablets may be administered separately or wrapped in a piece of food.
+                      Do not administer together with dairy food. The dose should be administered in a single
+                      application.
+                      For beasts (Felines and Canidae), zoological gardens, circuses, etc. are recommended to mix
+                      crushed tablets according to the animal weight in meatballs; these balls are to be placed in the
+                      cage before morning feeding in the number corresponding to the number of animals.</p>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary w-100" data-bs-dismiss="modal">Add To Cart</button>
+                    <button type="button" class="btn btn-primary w-100">Buy Now</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+          </div>
+
+        </div>
+
+      </div>
+      <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
+        <div class="row justify-content-center">
+          <!-- Cards -->
+
+          <h1 class="text-dark text-center fst-italic"><strong><strong>🏠 TAIL NEST 🏠</strong></strong></h1>
+          <div id="" class="row justify-content-center " style="gap: 20px;">
+
+            <div data-aos="zoom-in-right" class="card" style="width: 18rem;">
+              <img src="./ASSESTS//IMAGES/tailnesta.webp" class="card-img-top h-100" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Airy Jetbox for Cats and Kitten</h5>
+                <p class="card-text">PKR 4,999.00.</p>
+                <button type="button" class="btn btn-primary w-100 " data-bs-toggle="modal"
+                  data-bs-target="#exampleModal16">
+                  More Details
+                </button>
+              </div>
+            </div>
+
+
+
+            <!-- Button trigger modal -->
+
+
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal16" tabindex="-1" aria-labelledby="exampleModalLabel"
+              aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Airy Jetbox for Cats and Kitten</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <img src="./ASSESTS//IMAGES/modaltailnesta.webp" alt="" width="100%">
+                    <h1><strong>DESCRIPTION:</strong></h1>
+                    <p>Travel with comfort and peace of mind using the Airy Jetbox for Cats and Kittens the perfect
+                      combination of safety, style, and convenience. Whether it’s a vet visit, road trip, or flight,
+                      this carrier ensures your pet travels securely and comfortably wherever you go.</p>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary w-100" data-bs-dismiss="modal">Add To Cart</button>
+                    <button type="button" class="btn btn-primary w-100">Buy Now</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+            <div data-aos="zoom-in-down" class="card" style="width: 18rem;">
+              <img src="./ASSESTS//IMAGES/tailnestb.webp" class="card-img-top h-100" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Jet Box Airline Approved Pet Carrier Box </h5>
+                <p class="card-text">PKR 3,499.00.</p>
+                <button type="button" class="btn btn-primary w-100" data-bs-toggle="modal"
+                  data-bs-target="#exampleModal17">
+                  More Details
+                </button>
+              </div>
+            </div>
+
+
+            <!-- Button trigger modal -->
+
+
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal17" tabindex="-1" aria-labelledby="exampleModalLabel"
+              aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Jet Box Airline Approved Pet Carrier Box </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <img src="./ASSESTS//IMAGES/modaltailnestb.webp" alt="" width="100%">
+                    <h1><strong>DESCRIPTION:</strong></h1>
+                    <p>Hard-Sided Jet Box Carrier: Spree is suitable for tiny breed dog carrier, cat carrier, small bird
+                      carrier & small animal carrier for quick trips to vet, pet store, etc.
+                      Jet box is available in 3 fun & fashionable colors & the design provides proper air
+                      circulation/visibility for your pet. The spree pet carrier is ideal for short trips
+                      Pet carrier made of durable, easy to clean plastic & includes built-in carrying handle.
+                    </p>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary w-100" data-bs-dismiss="modal">Add To Cart</button>
+                    <button type="button" class="btn btn-primary w-100">Buy Now</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+
+            <div data-aos="zoom-in-left" class="card" style="width: 18rem;">
+              <img src="./ASSESTS//IMAGES/tailnestc.webp" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">
+                  Wire Cage For Cats and Dogs
+                </h5>
+                <p class="card-text">PKR 17,850.00.</p>
+                <button type="button" class="btn btn-primary w-100" data-bs-toggle="modal"
+                  data-bs-target="#exampleModal18">
+                  More Details
+                </button>
+              </div>
+            </div>
+
+
+            <!-- Button trigger modal -->
+
+
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal18" tabindex="-1" aria-labelledby="exampleModalLabel"
+              aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Wire Cage For Cats and Dogs
+                    </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <img src="./ASSESTS//IMAGES/modaltailnestc.webp" alt="" width="100%">
+                    <h1><strong>DESCRIPTION:</strong></h1>
+                    <p>Hard-Sided Jet Box Carrier: Spree is suitable for tiny breed dog carrier, cat carrier, small bird
+                      carrier & small animal carrier for quick trips to vet, pet store, etc.
+                      Jet box is available in 3 fun & fashionable colors & the design provides proper air
+                      circulation/visibility for your pet. The spree pet carrier is ideal for short trips
+                      Pet carrier made of durable, easy to clean plastic & includes built-in carrying handle.</p>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary w-100" data-bs-dismiss="modal">Add To Cart</button>
+                    <button type="button" class="btn btn-primary w-100">Buy Now</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+ </nav>
+
+
+
+    <!-- Cards -->
+
+    <h1 class="text-success text-center fst-italic"><strong><strong>🥣 KITTY CUISINE 🥣</strong></strong></h1>
+    <div id="snuggles & playtime" class="row justify-content-center" style="gap: 20px;">
+
+      <div data-aos="zoom-in-right" class="card" style="width: 18rem;">
+        <img src="./ASSESTS//IMAGES/catfooda.webp" class="card-img-top h-100" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Whishkas Furry Vibe Dry Cat Food </h5>
+          <p class="card-text">PKR 899.00.</p>
+          <button type="button" class="btn btn-primary w-100 " data-bs-toggle="modal" data-bs-target="#exampleModal1">
+            More Details
+          </button>
+        </div>
+      </div>
+
+
+
+      <!-- Button trigger modal -->
+
+
+      <!-- Modal -->
+      <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Whishkas Furry Vibe Dry Cat Food</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <img src="./ASSESTS//IMAGES/modalcatfooda.webp" alt="" width="100%">
+              <h1><strong>DESCRIPTION:</strong></h1>
+              <p>WHISKAS® 1+ with chicken cat food is carefully prepared to give your feline friend everything they need
+                to keep them purring. Made with high quality ingredients that are sourced only from trusted suppliers,
+                each delicious bowl of dry cat food provides the purrfect balance of vitamins and minerals to keep them
+                happy, healthy & running to the bowl every mealtime.For 1+ adult cats, 800g box.As cat lovers, we know
+                that purring is the best sound you can hear. That’s why our feline chefs work hard to create delicious
+                meals that make millions of cats around the world rush to their bowls with purring excitement and
+                lickingly-good satisfaction. Prepared with love and care, each dish is nutritionally balanced to ensure
+                your cat has everything they need to keep them purring. Complete dry pet food for adult cats.</p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary w-100" data-bs-dismiss="modal">Add To Cart</button>
+              <button type="button" class="btn btn-primary w-100">Buy Now</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div data-aos="zoom-in-down" class="card" style="width: 18rem;">
+        <img src="./ASSESTS//IMAGES/catfoodb.webp" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Nourvet Gold Kitten & Cat Food
+          </h5>
+          <p class="card-text">PKR 1,375.00 .</p>
+          <button type="button" class="btn btn-primary w-100" data-bs-toggle="modal" data-bs-target="#exampleModal2">
+            More Details
+          </button>
+        </div>
+      </div>
+
+
+      <!-- Button trigger modal -->
+
+
+      <!-- Modal -->
+      <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Nourvet Gold Kitten & Cat Food
+              </h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <img src="./ASSESTS//IMAGES/modalcatfoodb.webp" alt="" width="100%">
+              <h1><strong>DESCRIPTION:</strong></h1>
+              <p>Fish protein (dehydrated), Brown rice, Peas, Chicken fat (preserved with tocopherols and citric acid),
+                Menhaden fish meal, yeast extract, natural flavor, dried egg product, oatmeal, dried tomato, dried plain
+                beet pulp, brewers dried yeast, flax seed, Bacillus subtilis fermentation extract, Taurine.
+              </p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary w-100" data-bs-dismiss="modal">Add To Cart</button>
+              <button type="button" class="btn btn-primary w-100">Buy Now</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+      <div data-aos="zoom-in-left" class="card" style="width: 18rem;">
+        <img src="./ASSESTS//IMAGES/catfoodc.webp" class="card-img-top h-100" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Petline Super Premium Kitten Food Chicken </h5>
+          <p class="card-text">PKR .1,165.00.</p>
+          <button type="button" class="btn btn-primary w-100" data-bs-toggle="modal" data-bs-target="#exampleModal3">
+            More Details
+          </button>
+        </div>
+      </div>
+
+
+      <!-- Button trigger modal -->
+
+
+      <!-- Modal -->
+      <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Petline Super Premium Kitten Food Chicken</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <img src="./ASSESTS//IMAGES/modalcatfoodc.webp" alt="" width="100%">
+              <h1><strong>DESCRIPTION:</strong></h1>
+              <p>Petline Super Premium Pet Food is a unique, healthy food prepared with the most special recipes that
+                professional team of Alltech and experienced nutritionists have worked together on for many years and
+                the delicious ingredients of Petline Natural Animal Nutrition.
+                <br>
+                <br>
+                Petline Cat Food Kitten Chicken Selection supports the optimal functioning of your kitten’s metobolism
+                with carefully selected raw materials and specially added Glucosamine, Chondroitin, Taurine and with the
+                help of these ingredients will help maintain a healthy life.
+                <br>
+                <br>
+                Petline Cat Food Kitten Chicken Selection is a kitten cat food with super premium chicken meat suitable
+                for all breeds fed at home or out of home for whose under 12 months. Enjoy sustainable freshness,
+                bioavaibility odor control in stool and immunity with OptiQuatro® tecnology devoloped with Alltech.
+              </p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary w-100" data-bs-dismiss="modal">Add To Cart</button>
+              <button type="button" class="btn btn-primary w-100">Buy Now</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+
+    <h1 class="text-warning text-center fst-italic"><strong><strong>🍖 WOOF MEALS 🍖</strong></strong></h1>
+    <div id="little toes" class="row justify-content-center" style="gap: 20px;">
+
+      <div data-aos="zoom-in-right" class="card" style="width: 18rem;">
+        <img src="./ASSESTS//IMAGES/dogfooda.webp" class="card-img-top h-100" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Woof Growth Puppy Food – 3 KG
+          </h5>
+          <p class="card-text">PKR 2,099.00.</p>
+          <button type="button" class="btn btn-primary w-100" data-bs-toggle="modal" data-bs-target="#exampleModal4">
+            More Details
+          </button>
+        </div>
+      </div>
+
+      <!-- Button trigger modal -->
+
+
+      <!-- Modal -->
+      <div class="modal fade" id="exampleModal4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">
+                Woof Growth Puppy Food – 3 KG</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <img src="./ASSESTS//IMAGES/modaldogfooda.webp" alt="" width="100%">
+              <h1>DESCRIPTION:</h1>
+              <p>
+                A complete balanced diet for puppies by providing all the essential nutrients, fats, proteins and fiber.
+                Woof puppy food helps puppies in maintaining the balance weight, shiner coat and high energy demand of
+                puppies.
+              </p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary w-100" data-bs-dismiss="modal">Add To Cart</button>
+              <button type="button" class="btn btn-primary w-100">Save changes</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div data-aos="zoom-in-down" class="card" style="width: 18rem;">
+        <img src="./ASSESTS//IMAGES/dogfoodb.webp" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Nutripaws Puppy Food for Puppies - 3Kg
+          </h5>
+          <p class="card-text">PKR 2,250.00.</p>
+          <button type="button" class="btn btn-primary w-100" data-bs-toggle="modal" data-bs-target="#exampleModal5">
+            More Details
+          </button>
+        </div>
+      </div>
+
+
+      <!-- Button trigger modal -->
+
+
+      <!-- Modal -->
+      <div class="modal fade" id="exampleModal5" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Nutripaws Puppy Food for Puppies - 3Kg</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <img src="./ASSESTS//IMAGES/dogfoodb.webp" alt="" width="100%">
+              <h1>DESCRIPTION:</h1>
+              <p>Give your growing pup the best start in life with Nutripaws Puppy Food, a complete and balanced diet
+                specially formulated to meet the nutritional needs of puppies of all breeds. Packed with high-quality
+                proteins, essential vitamins, and minerals, this food supports healthy growth, strong immunity, and
+                boundless puppy energy.</p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary w-100" data-bs-dismiss="modal">Add To Cart</button>
+              <button type="button" class="btn btn-primary w-100">Buy Now</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div data-aos="zoom-in-left" class="card" style="width: 18rem;">
+        <img src="./ASSESTS//IMAGES/dogfoodc.webp" class="card-img-top h-100" alt="...">
+        <div class="card-body">
+          <h5 class="card-title"> PetNosh High Energy Dog Food 3Kg </h5>
+          <p class="card-text">PKR Rs 2,100.00. </p>
+          <button type="button" class="btn btn-primary w-100" data-bs-toggle="modal" data-bs-target="#exampleModal6">
+            More Details
+          </button>
+        </div>
+      </div>
+
+
+      <!-- Button trigger modal -->
+
+
+      <!-- Modal -->
+      <div class="modal fade" id="exampleModal6" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">PetNosh High Energy Dog Food 3Kg </h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <img src="./ASSESTS//IMAGES/modaldogfoodc.webp" alt="" width="100%">
+              <h1>DESCRIPTION:</h1>
+              <p>Give your growing pup the best start in life with Nutripaws Puppy Food, a complete and balanced diet
+                specially formulated to meet the nutritional needs of puppies of all breeds. Packed with high-quality
+                proteins, essential vitamins, and minerals, this food supports healthy growth, strong immunity, and
+                boundless puppy energy.</p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary w-100" data-bs-dismiss="modal">Add To Cart</button>
+              <button type="button" class="btn btn-primary w-100">Buy Now</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+
+    <h1 class="text-danger text-center fst-italic"><strong><strong>🐟 OCEAN MUNCHIES 🐟</strong></strong></h1>
+    <div id="kidzy closet" class="row justify-content-center" style="gap: 20px;">
+
+      <div data-aos="zoom-in-right" class="card" style="width: 18rem;">
+        <img src="./ASSESTS//IMAGES/fishfooda.webp" class="card-img-top h-100" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Optimum Highly Nutritious Food</h5>
+          <p class="card-text">PKR 590.00.</p>
+          <button type="button" class="btn btn-primary w-100" data-bs-toggle="modal" data-bs-target="#exampleModal7">
+            More Details
+          </button>
+        </div>
+      </div>
+
+
+      <!-- Button trigger modal -->
+
+
+      <!-- Modal -->
+      <div class="modal fade" id="exampleModal7" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Optimum Highly Nutritious</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <img src="./ASSESTS//IMAGES/fishfooda.webp" alt="" width="100%">
+              <h1>DESCRIPTION:</h1>
+              <p>
+                Suitable for all aquarium fish species such as goldfish, fancy carp, swordtails, platies, mollies,
+                angelfish, cichlids, anabantids and bettas.
+
+                Contains Astaxanthin enhances the brilliant natural color of aquarium fish
+                Rich in vitamin C and vitamin E to help reduce stress and increase immunity .
+                Complete nutrition Non Water fouling</p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary w-100" data-bs-dismiss="modal">Add To Cart</button>
+              <button type="button" class="btn btn-primary w-100">Buy Now</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div data-aos="zoom-in-down" class="card" style="width: 18rem;">
+        <img src="./ASSESTS//IMAGES/fishfoodb.webp" class="card-img-top h-100" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">KEN Premium Fish Food - 100GMS</h5>
+          <p class="card-text">PKR 399.00.</p>
+          <button type="button" class="btn btn-primary w-100" data-bs-toggle="modal" data-bs-target="#exampleModal8">
+            More Details
+          </button>
+
+        </div>
+      </div>
+
+      <!-- Button trigger modal -->
+
+      <!-- Modal -->
+      <div class="modal fade" id="exampleModal8" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">KEN Premium Fish Food - 100GMS</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <img src="./ASSESTS//IMAGES/fishfoodb.webp" alt="" width="100%">
+              <h1>DESCRIPTION:</h1>
+              <p>KEN Premium Fish Food is specially crafted to meet the daily nutritional needs of all freshwater and
+                ornamental fish. Made with high-quality protein, vitamins, and natural color enhancers, it helps promote
+                faster growth, brighter colors, and stronger immunity. The slow-sinking formula is easy to digest,
+                reduces waste, and keeps aquarium water clean and clear.
+              </p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary w-100" data-bs-dismiss="modal">Add To Cart</button>
+              <button type="button" class="btn btn-primary w-100">Buy Now</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div data-aos="zoom-in-left" class="card" style="width: 18rem;">
+        <img src="./ASSESTS//IMAGES/fishfoodc.webp" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Super Nova Aquarium Fish Food </h5>
+          <p class="card-text">PKR 420,00.</p>
+          <button type="button" class="btn btn-primary w-100" data-bs-toggle="modal" data-bs-target="#exampleModal9">
+            More Details
+          </button>
+        </div>
+      </div>
+
+
+      <!-- Button trigger modal -->
+
+
+      <!-- Modal -->
+      <div class="modal fade" id="exampleModal9" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">
+                Super Nova Aquarium Fish Food </h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <img src="./ASSESTS//IMAGES/modalfishfoodc.webp" alt="" width="100%">
+              <h1>DESCRIPTION:</h1>
+              <p>
+                SUPER NOVA Aquarium fish food is appropriate for all aquarium fish species, such as gold fish, fancy
+                carp, and guppy. SUPER NOVA Aquarium fish food is specially formulated with the completed nutritional
+                value to give your fish healthy growth.
+                <br>
+                <br>
+                Made with premium proteins, essential vitamins, and natural color enhancers, Super Nova promotes strong
+                immune systems, rapid growth, and beautiful, vivid coloration. The slow-sinking granules are easy to
+                digest, helping to reduce waste and maintain crystal-clear water in your aquarium.
+              </p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary w-100" data-bs-dismiss="modal">Add To Cart</button>
+              <button type="button" class="btn btn-primary w-100">Buy Now</button>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+  </main>
+
+
+  <br>
+  <br>
+
+
+  <!-- Footer -->
+
+  <footer class="d-flex justify-content-between text-light" style="background-color: rgb(112, 59, 112)">
+
+
+    <div>
+      <h2 class="text-danger">Need Help?</h2>
+      <p>
+        📞+03 111 109 679</p>
+      <p>(Mon - Sat: 9:30am - 10:00pm | Sun: 11am - 8pm)</p>
+      <p>
+        📩eshop@honeypawskoko.com</p>
+    </div>
+
+
+    <div>
+      <h2 class="text-primary">Customer Service</h2>
+      <p>Contact Us</p>
+      <p>Delivery & Orders</p>
+      <p>Returns & Exchanges</p>
+      <p>Terms & Conditions</p>
+      <p>Privacy Policy</p>
+      <p>Track My Order</p>
+      <p>Payment Guide</p>
+      <p>Fabric Glossary</p>
+    </div>
+
+
+    <div>
+      <h2 class="text-warning">Company</h2>
+      <p>About Us</p>
+      <p>Careers</p>
+      <p>Store Addresses</p>
+      <p>Corporate</p>
+    </div>
+
+
+    <div style=" font-size: 35px;">
+      <h2 class="text-success">Follow Us</h2>
+      <i class="fa-brands fa-facebook-f"></i>
+      <i class="fa-brands fa-twitter"></i>
+      <i class="fa-brands fa-youtube"></i>
+      <i class="fa-brands fa-instagram"></i>
+      <i class="fa-brands fa-pinterest-p"></i>
+      <i class="fa-brands fa-linkedin-in"></i>
+    </div>
+
+
+
+  </footer>
+
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+  <script>
+    AOS.init();
+  </script>
+
+
+  <!-- Optional JavaScript; choose one of the two! -->
+
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <!-- Option 2: Separate Popper and Bootstrap JS -->
+  <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>
